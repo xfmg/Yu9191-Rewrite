@@ -64,6 +64,7 @@ if (typeof $response == "undefined") {
   const app = '1';
   const UAMappings = {
     'Opal':{ name: 'premium_tier_2', id: 'com.withopal.opal.premiumtier2lifetime'},//9.11
+    'Photoooo':{ name: 'lifetime', id: 'canoe_28_rnb_forever'},//9.18
     'Baby%20Generator':{ name: 'premium_features', id: 'babygenerator_499_weekly'},//9.9
     'Boring':{ name: 'pro', id: 'month'},//8.29lifelog
     'Snipd':{ name: 'premium', id: 'test_snipd_premium_grandfather_1y_4200_trial_2w_v1'},//9.10
@@ -143,6 +144,9 @@ if (typeof $response == "undefined") {
     'windiary':{ name: 'Pro', id: 'windiary_1799_lt'},
     'Liftbear':{ name: 'Pro', id: 'liftbear_2399_1y'},
     'Currency':{ name: 'plus', id: 'com.jeffreygrossman.currencyapp.iap.pro.crossgrade'},
+
+    'VSCO':{name:'pro',id:'vscopro_global_5999_annual_7D_free'},
+    'Pillow':{name:'premium',id:'com.neybox.pillow.premium.yearly'},
     
     
     
