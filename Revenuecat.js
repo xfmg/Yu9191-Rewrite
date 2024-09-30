@@ -63,6 +63,11 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
+    'dtdVibe':{name:'pro',id:'com.dtd.aroundu.year'},//9.26
+    'DtdVibe':{name:'pro',id:'com.dtd.playlist.premium.subscription.yearr'},//9.26
+    'AdGuard%20Home%20Remote':{name:'aghrpro',id:'adguard.home.remote.pro'},//9.25
+    'Chatme':{name:'premium',id:'chatme_premium_year_discount'},//9.24
+    'Alpenglow':{ name: 'newPro', id: 'ProLifetime'},//9.23
     'Opal':{ name: 'premium_tier_2', id: 'com.withopal.opal.premiumtier2lifetime'},//9.11
     'Photoooo':{ name: 'lifetime', id: 'canoe_28_rnb_forever'},//9.18
     'Baby%20Generator':{ name: 'premium_features', id: 'babygenerator_499_weekly'},//9.9
@@ -146,7 +151,7 @@ if (typeof $response == "undefined") {
     'Currency':{ name: 'plus', id: 'com.jeffreygrossman.currencyapp.iap.pro.crossgrade'},
 
     'VSCO':{name:'pro',id:'vscopro_global_5999_annual_7D_free'},
-    'Pillow':{name:'premium',id:'com.neybox.pillow.premium.yearly'},
+    'Pillow':{name:'premium',id:'com.neybox.pillow.premium.yearly'}
     
     
     
